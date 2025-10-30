@@ -1,6 +1,6 @@
-# ISYE6202 - Probabilistic Models and Optimization
+# ISYE6202 - Warehousing System
 
-This repository contains coursework and case studies for ISYE6202, focusing on integer optimization, data analysis, and probabilistic modeling.
+This repository contains personal coursework and case studies for ISYE6202, focusing on facility layout planning, optimization
 
 ## Repository Structure
 
@@ -8,17 +8,12 @@ This repository contains multiple case studies, each in its own folder with dedi
 
 ### Case Studies
 
-- [Case 01](./case01/) - Integer Optimization Case Study
-- [Case 02](./case02/) - Data Analysis Case Study
-- [Case 03](./case03/) - Advanced Optimization Case Study
-- [Case 04](./case04/) - Probabilistic Modeling Case Study
+- [Case 01](./case01/) - Dobda Facility Network Analysis and Simulation
+- [Case 02](./case02/) - Smart Locker Design
+- [Case 03](./case03/) - FaMoSa facility layout design
+- [Case 04](./case04/) - TBD
 
 ## Getting Started
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip package manager
 
 ### Installation
 
@@ -45,34 +40,17 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Dependencies
-
-This project uses the following main packages:
-- **PuLP**: Integer and linear programming optimization
-- **NumPy**: Numerical computing
-- **Pandas**: Data manipulation and analysis
-- **openpyxl**: Excel file handling
-- **SciPy**: Scientific computing
-- **Matplotlib/Seaborn**: Data visualization
-- **Jupyter**: Interactive notebooks for analysis
-
-See [requirements.txt](./requirements.txt) for the complete list with versions.
 
 ## Usage
 
 Each case folder contains:
 - Problem statement and data files
 - Python scripts or Jupyter notebooks for analysis
-- Results and visualizations
-- Individual README with case-specific details
+- Results and visualizations 
+- Individual Documentations(README, report) with case-specific details
 
 Navigate to each case folder for detailed instructions.
 
-## Author
-
-- **Name**: hty
-- **Email**: thu317@gatech.edu
-- **Course**: ISYE6202
 
 ## License
 
