@@ -24,8 +24,8 @@ This repository contains multiple case studies, each in its own folder with dedi
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
-cd ISYE6202
+git clone git@github.com:TIH233/ISYE6202_WarehousingCaseworks.git
+cd ISYE6202_WarehousingCaseworks
 ```
 
 2. Create and activate the virtual environment:
