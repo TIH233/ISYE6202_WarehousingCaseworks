@@ -26,10 +26,6 @@ class CapacityPlanningSolver:
         Installation cost per machine type.
         Example: {'A': 50000, 'B': 60000, 'AB': 75000, ...}
 
-    C_m_lab : dict
-        Labor cost per machine-hour for each machine type.
-        Example: {'A': 58.75, 'B': 58.75, ...}
-
     A_eff : float
         Effective available hours per machine in the planning period.
         Typically: calendar_hours * OEE
@@ -78,7 +74,7 @@ class CapacityPlanningSolver:
                 all_steps.add(step.strip())
         return sorted(list(all_steps))
 
-    def _build_model(self, part_demand, step_df, productivity_df, K_m, C_m_lab, A_eff, eligibility):
+    def _build_model(self, part_demand, step_df, productivity_df, K_m, A_eff, eligibility):
         """Build the optimization model."""
 
         # Build demand matrix
@@ -105,12 +101,12 @@ class CapacityPlanningSolver:
         # min Z = sum(K_m * y_m) + sum(C_m^lab * sum(x_mps))
         installation_cost = lpSum([K_m[m] * self.y_vars[m] for m in machines])
 
-        operational_cost = lpSum([
-            C_m_lab[m] * lpSum([self.x_vars[(m, p, s)] for p in parts for s in steps])
-            for m in machines
-        ])
+        # operational_cost = lpSum([
+        #     C_m_lab[m] * lpSum([self.x_vars[(m, p, s)] for p in parts for s in steps])
+        #     for m in machines
+        # ])
 
-        self.model += installation_cost + operational_cost, "Total_Cost"
+        self.model += installation_cost, "Total_Cost"
 
         # Constraints
 
@@ -156,7 +152,7 @@ class CapacityPlanningSolver:
 
         return D_ps, machines, parts, steps
 
-    def solve(self, part_demand, step_df, productivity_df, K_m, C_m_lab, A_eff, eligibility,
+    def solve(self, part_demand, step_df, productivity_df, K_m, A_eff, eligibility,
               solver_time_limit=300, verbose=True):
         """
         Solve the capacity planning optimization problem.
@@ -171,7 +167,7 @@ class CapacityPlanningSolver:
             Productivity (units/hour) for each part-step
         K_m : dict
             Installation cost for each machine type
-        C_m_lab : dict
+        C_m_lab : dict -- no longer considered -- 
             Labor cost per hour for each machine type
         A_eff : float
             Effective available hours per machine
@@ -203,7 +199,7 @@ class CapacityPlanningSolver:
 
         # Build the model
         D_ps, machines, parts, steps = self._build_model(
-            part_demand, step_df, productivity_df, K_m, C_m_lab, A_eff, eligibility
+            part_demand, step_df, productivity_df, K_m, A_eff, eligibility
         )
 
         if verbose:
@@ -295,7 +291,7 @@ class CapacityPlanningSolver:
             'status': status,
             'total_cost': total_cost,
             'installation_cost': installation_total,
-            'operational_cost': operational_total,
+            # 'operational_cost': operational_total,
             'machine_allocation': machine_allocation_df,
             'y_vars': self.y_vars,
             'x_vars': self.x_vars,
