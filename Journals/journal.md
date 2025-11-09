@@ -7,5 +7,7 @@ $$\min Z = \sum_{m \in M} K_m y_m + \sum_{m \in M} C_m^{\text{lab}} \left( \sum_
 the result passsed sanity check, waitig for external validation
 
 
-# 
+# Three different way to formulate same problem
+
+
 
