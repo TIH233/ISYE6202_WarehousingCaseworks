@@ -1,0 +1,709 @@
+{
+    "A": {
+        "quantity": 4,
+        "total_hours": 282.24,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P1",
+                "step": "A",
+                "hours": 124.69,
+                "min_per_hr_perstation": 26.5072
+            },
+            {
+                "product": "P2",
+                "step": "A",
+                "hours": 83.0,
+                "min_per_hr_perstation": 17.6446
+            },
+            {
+                "product": "P4",
+                "step": "A",
+                "hours": 56.3,
+                "min_per_hr_perstation": 11.9685
+            },
+            {
+                "product": "P6",
+                "step": "A",
+                "hours": 18.25,
+                "min_per_hr_perstation": 3.8797
+            }
+        ]
+    },
+    "ABC": {
+        "quantity": 1,
+        "total_hours": 61.8408,
+        "avg_total_hours_per_workday": 12.3682,
+        "allocations": [
+            {
+                "product": "P1",
+                "step": "A",
+                "hours": 2.86,
+                "min_per_hr_perstation": 2.432
+            },
+            {
+                "product": "P1",
+                "step": "C",
+                "hours": 23.3358,
+                "min_per_hr_perstation": 19.8434
+            },
+            {
+                "product": "P4",
+                "step": "B",
+                "hours": 23.4783,
+                "min_per_hr_perstation": 19.9646
+            },
+            {
+                "product": "P6",
+                "step": "C",
+                "hours": 12.1667,
+                "min_per_hr_perstation": 10.3458
+            }
+        ]
+    },
+    "B": {
+        "quantity": 8,
+        "total_hours": 564.48,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P1",
+                "step": "B",
+                "hours": 318.875,
+                "min_per_hr_perstation": 33.894
+            },
+            {
+                "product": "P3",
+                "step": "B",
+                "hours": 60.4917,
+                "min_per_hr_perstation": 6.4298
+            },
+            {
+                "product": "P4",
+                "step": "B",
+                "hours": 89.1217,
+                "min_per_hr_perstation": 9.473
+            },
+            {
+                "product": "P5",
+                "step": "B",
+                "hours": 65.575,
+                "min_per_hr_perstation": 6.9701
+            },
+            {
+                "product": "P6",
+                "step": "B",
+                "hours": 30.4167,
+                "min_per_hr_perstation": 3.2331
+            }
+        ]
+    },
+    "C": {
+        "quantity": 2,
+        "total_hours": 141.12,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P1",
+                "step": "C",
+                "hours": 40.4392,
+                "min_per_hr_perstation": 17.1935
+            },
+            {
+                "product": "P2",
+                "step": "C",
+                "hours": 3.3183,
+                "min_per_hr_perstation": 1.4109
+            },
+            {
+                "product": "P5",
+                "step": "C",
+                "hours": 32.7875,
+                "min_per_hr_perstation": 13.9403
+            },
+            {
+                "product": "P7",
+                "step": "C",
+                "hours": 64.575,
+                "min_per_hr_perstation": 27.4554
+            }
+        ]
+    },
+    "CD": {
+        "quantity": 1,
+        "total_hours": 70.56,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P2",
+                "step": "C",
+                "hours": 29.8817,
+                "min_per_hr_perstation": 25.4096
+            },
+            {
+                "product": "P2",
+                "step": "D",
+                "hours": 14.7533,
+                "min_per_hr_perstation": 12.5454
+            },
+            {
+                "product": "P3",
+                "step": "C",
+                "hours": 25.925,
+                "min_per_hr_perstation": 22.0451
+            }
+        ]
+    },
+    "D": {
+        "quantity": 18,
+        "total_hours": 1270.08,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P1",
+                "step": "D",
+                "hours": 318.875,
+                "min_per_hr_perstation": 15.064
+            },
+            {
+                "product": "P2",
+                "step": "D",
+                "hours": 151.2467,
+                "min_per_hr_perstation": 7.1451
+            },
+            {
+                "product": "P3",
+                "step": "D",
+                "hours": 103.7,
+                "min_per_hr_perstation": 4.8989
+            },
+            {
+                "product": "P4",
+                "step": "D",
+                "hours": 168.9,
+                "min_per_hr_perstation": 7.979
+            },
+            {
+                "product": "P5",
+                "step": "D",
+                "hours": 153.0083,
+                "min_per_hr_perstation": 7.2283
+            },
+            {
+                "product": "P6",
+                "step": "D",
+                "hours": 73.0,
+                "min_per_hr_perstation": 3.4486
+            },
+            {
+                "product": "P7",
+                "step": "D",
+                "hours": 301.35,
+                "min_per_hr_perstation": 14.2361
+            }
+        ]
+    },
+    "E": {
+        "quantity": 8,
+        "total_hours": 564.48,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P10",
+                "step": "E",
+                "hours": 114.325,
+                "min_per_hr_perstation": 12.1519
+            },
+            {
+                "product": "P11",
+                "step": "E",
+                "hours": 60.8125,
+                "min_per_hr_perstation": 6.4639
+            },
+            {
+                "product": "P12",
+                "step": "E",
+                "hours": 43.6467,
+                "min_per_hr_perstation": 4.6393
+            },
+            {
+                "product": "P13",
+                "step": "E",
+                "hours": 37.3542,
+                "min_per_hr_perstation": 3.9705
+            },
+            {
+                "product": "P14",
+                "step": "E",
+                "hours": 111.5,
+                "min_per_hr_perstation": 11.8516
+            },
+            {
+                "product": "P15",
+                "step": "E",
+                "hours": 9.45,
+                "min_per_hr_perstation": 1.0045
+            },
+            {
+                "product": "P7",
+                "step": "E",
+                "hours": 86.1,
+                "min_per_hr_perstation": 9.1518
+            },
+            {
+                "product": "P8",
+                "step": "E",
+                "hours": 31.4792,
+                "min_per_hr_perstation": 3.346
+            },
+            {
+                "product": "P9",
+                "step": "E",
+                "hours": 69.8125,
+                "min_per_hr_perstation": 7.4205
+            }
+        ]
+    },
+    "EG": {
+        "quantity": 1,
+        "total_hours": 62.1625,
+        "avg_total_hours_per_workday": 12.4325,
+        "allocations": [
+            {
+                "product": "P12",
+                "step": "E",
+                "hours": 16.12,
+                "min_per_hr_perstation": 13.7075
+            },
+            {
+                "product": "P12",
+                "step": "G",
+                "hours": 29.8833,
+                "min_per_hr_perstation": 25.411
+            },
+            {
+                "product": "P9",
+                "step": "G",
+                "hours": 16.1592,
+                "min_per_hr_perstation": 13.7408
+            }
+        ]
+    },
+    "F": {
+        "quantity": 11,
+        "total_hours": 734.4917,
+        "avg_total_hours_per_workday": 13.3544,
+        "allocations": [
+            {
+                "product": "P10",
+                "step": "F",
+                "hours": 133.3792,
+                "min_per_hr_perstation": 10.3107
+            },
+            {
+                "product": "P12",
+                "step": "F",
+                "hours": 59.7667,
+                "min_per_hr_perstation": 4.6202
+            },
+            {
+                "product": "P13",
+                "step": "F",
+                "hours": 37.3542,
+                "min_per_hr_perstation": 2.8876
+            },
+            {
+                "product": "P14",
+                "step": "F",
+                "hours": 167.25,
+                "min_per_hr_perstation": 12.929
+            },
+            {
+                "product": "P15",
+                "step": "F",
+                "hours": 15.75,
+                "min_per_hr_perstation": 1.2175
+            },
+            {
+                "product": "P16",
+                "step": "F",
+                "hours": 94.1042,
+                "min_per_hr_perstation": 7.2746
+            },
+            {
+                "product": "P7",
+                "step": "F",
+                "hours": 129.15,
+                "min_per_hr_perstation": 9.9838
+            },
+            {
+                "product": "P9",
+                "step": "F",
+                "hours": 97.7375,
+                "min_per_hr_perstation": 7.5555
+            }
+        ]
+    },
+    "G": {
+        "quantity": 2,
+        "total_hours": 141.12,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P11",
+                "step": "G",
+                "hours": 24.325,
+                "min_per_hr_perstation": 10.3423
+            },
+            {
+                "product": "P13",
+                "step": "G",
+                "hours": 14.9417,
+                "min_per_hr_perstation": 6.3527
+            },
+            {
+                "product": "P14",
+                "step": "G",
+                "hours": 55.75,
+                "min_per_hr_perstation": 23.7032
+            },
+            {
+                "product": "P15",
+                "step": "G",
+                "hours": 6.3,
+                "min_per_hr_perstation": 2.6786
+            },
+            {
+                "product": "P4",
+                "step": "G",
+                "hours": 14.075,
+                "min_per_hr_perstation": 5.9843
+            },
+            {
+                "product": "P9",
+                "step": "G",
+                "hours": 25.7283,
+                "min_per_hr_perstation": 10.9389
+            }
+        ]
+    },
+    "H": {
+        "quantity": 13,
+        "total_hours": 874.2833,
+        "avg_total_hours_per_workday": 13.4505,
+        "allocations": [
+            {
+                "product": "P13",
+                "step": "H",
+                "hours": 59.7667,
+                "min_per_hr_perstation": 3.9094
+            },
+            {
+                "product": "P14",
+                "step": "H",
+                "hours": 195.125,
+                "min_per_hr_perstation": 12.7633
+            },
+            {
+                "product": "P15",
+                "step": "H",
+                "hours": 31.5,
+                "min_per_hr_perstation": 2.0604
+            },
+            {
+                "product": "P16",
+                "step": "H",
+                "hours": 376.4167,
+                "min_per_hr_perstation": 24.6217
+            },
+            {
+                "product": "P2",
+                "step": "H",
+                "hours": 66.4,
+                "min_per_hr_perstation": 4.3433
+            },
+            {
+                "product": "P4",
+                "step": "H",
+                "hours": 70.375,
+                "min_per_hr_perstation": 4.6033
+            },
+            {
+                "product": "P6",
+                "step": "H",
+                "hours": 24.3333,
+                "min_per_hr_perstation": 1.5917
+            },
+            {
+                "product": "P8",
+                "step": "H",
+                "hours": 50.3667,
+                "min_per_hr_perstation": 3.2945
+            }
+        ]
+    },
+    "I": {
+        "quantity": 13,
+        "total_hours": 858.7542,
+        "avg_total_hours_per_workday": 13.2116,
+        "allocations": [
+            {
+                "product": "P1",
+                "step": "I",
+                "hours": 159.4375,
+                "min_per_hr_perstation": 10.4289
+            },
+            {
+                "product": "P10",
+                "step": "I",
+                "hours": 95.2708,
+                "min_per_hr_perstation": 6.2317
+            },
+            {
+                "product": "P11",
+                "step": "I",
+                "hours": 36.4875,
+                "min_per_hr_perstation": 2.3867
+            },
+            {
+                "product": "P12",
+                "step": "I",
+                "hours": 74.7083,
+                "min_per_hr_perstation": 4.8867
+            },
+            {
+                "product": "P13",
+                "step": "I",
+                "hours": 37.3542,
+                "min_per_hr_perstation": 2.4434
+            },
+            {
+                "product": "P16",
+                "step": "I",
+                "hours": 94.1042,
+                "min_per_hr_perstation": 6.1554
+            },
+            {
+                "product": "P3",
+                "step": "I",
+                "hours": 51.85,
+                "min_per_hr_perstation": 3.3915
+            },
+            {
+                "product": "P5",
+                "step": "I",
+                "hours": 76.5042,
+                "min_per_hr_perstation": 5.0042
+            },
+            {
+                "product": "P6",
+                "step": "I",
+                "hours": 30.4167,
+                "min_per_hr_perstation": 1.9896
+            },
+            {
+                "product": "P7",
+                "step": "I",
+                "hours": 107.625,
+                "min_per_hr_perstation": 7.0398
+            },
+            {
+                "product": "P8",
+                "step": "I",
+                "hours": 25.1833,
+                "min_per_hr_perstation": 1.6473
+            },
+            {
+                "product": "P9",
+                "step": "I",
+                "hours": 69.8125,
+                "min_per_hr_perstation": 4.5665
+            }
+        ]
+    },
+    "J": {
+        "quantity": 22,
+        "total_hours": 1497.1667,
+        "avg_total_hours_per_workday": 13.6106,
+        "allocations": [
+            {
+                "product": "P1",
+                "step": "J",
+                "hours": 318.875,
+                "min_per_hr_perstation": 12.3251
+            },
+            {
+                "product": "P10",
+                "step": "J",
+                "hours": 152.4333,
+                "min_per_hr_perstation": 5.8918
+            },
+            {
+                "product": "P12",
+                "step": "J",
+                "hours": 134.475,
+                "min_per_hr_perstation": 5.1977
+            },
+            {
+                "product": "P15",
+                "step": "J",
+                "hours": 31.5,
+                "min_per_hr_perstation": 1.2175
+            },
+            {
+                "product": "P16",
+                "step": "J",
+                "hours": 188.2083,
+                "min_per_hr_perstation": 7.2746
+            },
+            {
+                "product": "P2",
+                "step": "J",
+                "hours": 166.0,
+                "min_per_hr_perstation": 6.4162
+            },
+            {
+                "product": "P3",
+                "step": "J",
+                "hours": 86.4167,
+                "min_per_hr_perstation": 3.3402
+            },
+            {
+                "product": "P6",
+                "step": "J",
+                "hours": 66.9167,
+                "min_per_hr_perstation": 2.5865
+            },
+            {
+                "product": "P7",
+                "step": "J",
+                "hours": 172.2,
+                "min_per_hr_perstation": 6.6558
+            },
+            {
+                "product": "P8",
+                "step": "J",
+                "hours": 12.5917,
+                "min_per_hr_perstation": 0.4867
+            },
+            {
+                "product": "P9",
+                "step": "J",
+                "hours": 167.55,
+                "min_per_hr_perstation": 6.4761
+            }
+        ]
+    },
+    "K": {
+        "quantity": 2,
+        "total_hours": 141.12,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P17",
+                "step": "K",
+                "hours": 19.2825,
+                "min_per_hr_perstation": 8.1983
+            },
+            {
+                "product": "P18",
+                "step": "K",
+                "hours": 53.9375,
+                "min_per_hr_perstation": 22.9326
+            },
+            {
+                "product": "P20",
+                "step": "K",
+                "hours": 67.9,
+                "min_per_hr_perstation": 28.869
+            }
+        ]
+    },
+    "KLM": {
+        "quantity": 1,
+        "total_hours": 36.7225,
+        "avg_total_hours_per_workday": 7.3445,
+        "allocations": [
+            {
+                "product": "P17",
+                "step": "K",
+                "hours": 3.13,
+                "min_per_hr_perstation": 2.6616
+            },
+            {
+                "product": "P17",
+                "step": "M",
+                "hours": 33.5575,
+                "min_per_hr_perstation": 28.5353
+            },
+            {
+                "product": "P18",
+                "step": "L",
+                "hours": 0.035,
+                "min_per_hr_perstation": 0.0298
+            }
+        ]
+    },
+    "L": {
+        "quantity": 9,
+        "total_hours": 635.04,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P17",
+                "step": "L",
+                "hours": 89.65,
+                "min_per_hr_perstation": 8.4703
+            },
+            {
+                "product": "P18",
+                "step": "L",
+                "hours": 89.8608,
+                "min_per_hr_perstation": 8.4903
+            },
+            {
+                "product": "P19",
+                "step": "L",
+                "hours": 274.4625,
+                "min_per_hr_perstation": 25.9318
+            },
+            {
+                "product": "P20",
+                "step": "L",
+                "hours": 181.0667,
+                "min_per_hr_perstation": 17.1076
+            }
+        ]
+    },
+    "M": {
+        "quantity": 13,
+        "total_hours": 917.28,
+        "avg_total_hours_per_workday": 14.112,
+        "allocations": [
+            {
+                "product": "P17",
+                "step": "M",
+                "hours": 71.0342,
+                "min_per_hr_perstation": 4.6464
+            },
+            {
+                "product": "P18",
+                "step": "M",
+                "hours": 269.6875,
+                "min_per_hr_perstation": 17.6405
+            },
+            {
+                "product": "P19",
+                "step": "M",
+                "hours": 304.9583,
+                "min_per_hr_perstation": 19.9476
+            },
+            {
+                "product": "P20",
+                "step": "M",
+                "hours": 271.6,
+                "min_per_hr_perstation": 17.7656
+            }
+        ]
+    }
+}

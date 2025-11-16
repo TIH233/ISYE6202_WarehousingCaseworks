@@ -1,0 +1,655 @@
+{
+    "P1": {
+        "daily_demand": 6128.0,
+        "step_1": {
+            "step_name": "B",
+            "machines": {
+                "B": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "A",
+            "machines": {
+                "A": 0.9775774206193649,
+                "ABC": 0.022422579380635046
+            }
+        },
+        "step_3": {
+            "step_name": "B",
+            "machines": {
+                "B": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "C",
+            "machines": {
+                "ABC": 0.36590827126617015,
+                "C": 0.6340917287338299
+            }
+        },
+        "step_5": {
+            "step_name": "D",
+            "machines": {
+                "D": 1.0
+            }
+        },
+        "step_6": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        },
+        "step_7": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P2": {
+        "daily_demand": 3200.0,
+        "step_1": {
+            "step_name": "A",
+            "machines": {
+                "A": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "C",
+            "machines": {
+                "C": 0.0999487951807229,
+                "CD": 0.9000512048192771
+            }
+        },
+        "step_3": {
+            "step_name": "D",
+            "machines": {
+                "CD": 0.08887530120481928,
+                "D": 0.9111246987951808
+            }
+        },
+        "step_4": {
+            "step_name": "H",
+            "machines": {
+                "H": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P3": {
+        "daily_demand": 1664.0,
+        "step_1": {
+            "step_name": "B",
+            "machines": {
+                "B": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "D",
+            "machines": {
+                "D": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "C",
+            "machines": {
+                "CD": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P4": {
+        "daily_demand": 2704.0,
+        "step_1": {
+            "step_name": "A",
+            "machines": {
+                "A": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "B",
+            "machines": {
+                "ABC": 0.20851065719360568,
+                "B": 0.7914893428063943
+            }
+        },
+        "step_3": {
+            "step_name": "D",
+            "machines": {
+                "D": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "G",
+            "machines": {
+                "G": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "H",
+            "machines": {
+                "H": 1.0
+            }
+        }
+    },
+    "P5": {
+        "daily_demand": 2112.0,
+        "step_1": {
+            "step_name": "B",
+            "machines": {
+                "B": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "C",
+            "machines": {
+                "C": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "D",
+            "machines": {
+                "D": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        }
+    },
+    "P6": {
+        "daily_demand": 1168.0,
+        "step_1": {
+            "step_name": "A",
+            "machines": {
+                "A": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "B",
+            "machines": {
+                "B": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "C",
+            "machines": {
+                "ABC": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "D",
+            "machines": {
+                "D": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "H",
+            "machines": {
+                "H": 1.0
+            }
+        },
+        "step_6": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        },
+        "step_7": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P7": {
+        "daily_demand": 4144.0,
+        "step_1": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "C",
+            "machines": {
+                "C": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "D",
+            "machines": {
+                "D": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        },
+        "step_6": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P8": {
+        "daily_demand": 1216.0,
+        "step_1": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "H",
+            "machines": {
+                "H": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        }
+    },
+    "P9": {
+        "daily_demand": 2688.0,
+        "step_1": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "G",
+            "machines": {
+                "EG": 0.38577618621307064,
+                "G": 0.6142238137869293
+            }
+        },
+        "step_3": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "G",
+            "machines": {
+                "EG": 0.38577618621307064,
+                "G": 0.6142238137869293
+            }
+        },
+        "step_5": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        },
+        "step_6": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P10": {
+        "daily_demand": 3664.0,
+        "step_1": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P11": {
+        "daily_demand": 2336.0,
+        "step_1": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "G",
+            "machines": {
+                "G": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "G",
+            "machines": {
+                "G": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        }
+    },
+    "P12": {
+        "daily_demand": 2880.0,
+        "step_1": {
+            "step_name": "E",
+            "machines": {
+                "E": 0.7302845899137814,
+                "EG": 0.2697154100862186
+            }
+        },
+        "step_2": {
+            "step_name": "G",
+            "machines": {
+                "EG": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P13": {
+        "daily_demand": 1440.0,
+        "step_1": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "G",
+            "machines": {
+                "G": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "G",
+            "machines": {
+                "G": 1.0
+            }
+        },
+        "step_6": {
+            "step_name": "H",
+            "machines": {
+                "H": 1.0
+            }
+        },
+        "step_7": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        }
+    },
+    "P14": {
+        "daily_demand": 5360.0,
+        "step_1": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "G",
+            "machines": {
+                "G": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "H",
+            "machines": {
+                "H": 1.0
+            }
+        }
+    },
+    "P15": {
+        "daily_demand": 608.0,
+        "step_1": {
+            "step_name": "E",
+            "machines": {
+                "E": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "G",
+            "machines": {
+                "G": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "H",
+            "machines": {
+                "H": 1.0
+            }
+        },
+        "step_5": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P16": {
+        "daily_demand": 3616.0,
+        "step_1": {
+            "step_name": "F",
+            "machines": {
+                "F": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "H",
+            "machines": {
+                "H": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "I",
+            "machines": {
+                "I": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "J",
+            "machines": {
+                "J": 1.0
+            }
+        }
+    },
+    "P17": {
+        "daily_demand": 1440.0,
+        "step_1": {
+            "step_name": "K",
+            "machines": {
+                "K": 0.860345789180145,
+                "KLM": 0.139654210819855
+            }
+        },
+        "step_2": {
+            "step_name": "L",
+            "machines": {
+                "L": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "M",
+            "machines": {
+                "KLM": 0.3208428584677369,
+                "M": 0.679157141532263
+            }
+        }
+    },
+    "P18": {
+        "daily_demand": 3456.0,
+        "step_1": {
+            "step_name": "K",
+            "machines": {
+                "K": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "L",
+            "machines": {
+                "KLM": 0.00038933965769257303,
+                "L": 0.9996106603423075
+            }
+        },
+        "step_3": {
+            "step_name": "K",
+            "machines": {
+                "K": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "M",
+            "machines": {
+                "M": 1.0
+            }
+        }
+    },
+    "P19": {
+        "daily_demand": 5856.0,
+        "step_1": {
+            "step_name": "L",
+            "machines": {
+                "L": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "M",
+            "machines": {
+                "M": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "L",
+            "machines": {
+                "L": 1.0
+            }
+        },
+        "step_4": {
+            "step_name": "M",
+            "machines": {
+                "M": 1.0
+            }
+        }
+    },
+    "P20": {
+        "daily_demand": 4352.0,
+        "step_1": {
+            "step_name": "L",
+            "machines": {
+                "L": 1.0
+            }
+        },
+        "step_2": {
+            "step_name": "K",
+            "machines": {
+                "K": 1.0
+            }
+        },
+        "step_3": {
+            "step_name": "M",
+            "machines": {
+                "M": 1.0
+            }
+        }
+    }
+}

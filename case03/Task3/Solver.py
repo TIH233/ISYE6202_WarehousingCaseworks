@@ -271,7 +271,7 @@ class CapacityPlanningSolver:
             print("=" * 80)
             print(f"\nTotal Cost: ${total_cost:,.2f}")
             print(f"  - Installation Cost: ${installation_total:,.2f}")
-            print(f"  - Operational Cost: ${operational_total:,.2f}")
+            # print(f"  - Operational Cost: ${operational_total:,.2f}")
 
             print("\n" + "-" * 80)
             print("MACHINE ALLOCATION")
